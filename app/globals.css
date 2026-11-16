@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-cream font-sans text-[15px] leading-relaxed text-ink; }
+  h1, h2, h3 { @apply font-display font-normal text-olive; }
+}
+
+@layer utilities {
+  .lace-pink  { background: radial-gradient(circle at 10px 0, #f8c9d6 7px, transparent 8px) 0 0/20px 14px repeat-x, #fffaf4; }
+  .lace-green { background: radial-gradient(circle at 10px 0, #fffaf4 7px, transparent 8px) 0 0/20px 14px repeat-x, #d3e4c8; }
+  .hero-bg    { background-image: url('./assets/sparkle.svg'); background-repeat: no-repeat; background-position: 6% 82%; background-size: 34px; }
+}
